@@ -27,12 +27,15 @@ public class Principal {
 				// 1. Pikachu Rodriguez
 				// 2. Son Goku Garcia 
 				// ...
-				seleccionar = leer.nextLine();
+				System.out.println("1. alumnoPrueba");
+				seleccionar = Integer.parseInt(leer.nextLine());
 				
-				//////// En este swith cada alumno debe añadir un case diferente. ////////
-				//////// Dentro de él, se encontrará una llamada a una funcion con su nombre y apellidos (igual que hice yo en el caso de arriba) ////////
-				switch(){  
-						
+				//////// En este swith cada alumno debe aï¿½adir un case diferente. ////////
+				//////// Dentro de ï¿½l, se encontrarï¿½ una llamada a una funcion con su nombre y apellidos (igual que hice yo en el caso de arriba) ////////
+				switch(seleccionar){  
+					case 1:
+						alumnoPrueba();
+						break;
 				
 				}
 				
@@ -44,6 +47,10 @@ public class Principal {
 	
 	public static void miguelAngelCamarena(){
 		System.out.println("Esta es la funcion de Miguel Angel Camarena");
+	}
+	
+	public static void alumnoPrueba(){
+		System.out.println("Esta es la funcion de alumnoPrueba");
 	}
 
 }
