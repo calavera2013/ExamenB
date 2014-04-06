@@ -28,6 +28,7 @@ public class Principal {
 				// 2. Son Goku Garcia 
 				// ...
 				System.out.println("1. alumnoPrueba");
+				System.out.println("2. alumnoPrueba2");
 				seleccionar = Integer.parseInt(leer.nextLine());
 				
 				//////// En este swith cada alumno debe a�adir un case diferente. ////////
@@ -35,6 +36,9 @@ public class Principal {
 				switch(seleccionar){  
 					case 1:
 						alumnoPrueba();
+						break;
+					case 2:
+						alumnoPrueba2();
 						break;
 				
 				}
@@ -52,5 +56,10 @@ public class Principal {
 	public static void alumnoPrueba(){
 		System.out.println("Esta es la funcion de alumnoPrueba");
 	}
+	
+	public static void alumnoPrueba2(){
+		System.out.println("Esta es la funcion de alumnoPrueba2");
+	}
 
 }
+
