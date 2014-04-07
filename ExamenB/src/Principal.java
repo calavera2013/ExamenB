@@ -26,7 +26,7 @@ public class Principal {
 				
 				System.out.println("ALUMNOS");
 				System.out.println("Jesus Gines Ruiz");
-				System.out.println("Fco. Javier Cuesta")
+				System.out.println("Fco. Javier Cuesta");
 				//////// Debajo de esta linea ir escribiendo vuestros nombres para formar el menu correspondiente /////
 				// 1. Pikachu Rodriguez
 				// 2. Son Goku Garcia 
