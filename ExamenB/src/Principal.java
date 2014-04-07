@@ -21,10 +21,17 @@ public class Principal {
 					miguelAngelCamarena();
 				
 				break;
+				
 			case "2":
 				
+
 				System.out.println("ALUMNOS"); //////// Debajo de esta linea ir escribiendo vuestros nombres para formar el menu correspondiente /////
 				System.out.println("1.Adrián Pérez Morales");
+
+				System.out.println("ALUMNOS");
+				System.out.println("Jesus Gines Ruiz");
+				//////// Debajo de esta linea ir escribiendo vuestros nombres para formar el menu correspondiente /////
+		}
 				// 1. Pikachu Rodriguez
 				// 2. Son Goku Garcia 
 				// ...
@@ -33,15 +40,22 @@ public class Principal {
 				
 				//////// En este swith cada alumno debe anadir un case diferente. ////////
 				//////// Dentro de el, se encontrara una llamada a una funcion con su nombre y apellidos (igual que hice yo en el caso de arriba) ////////
+
 				switch(seleccionar){  
 				case "1":
 					adrianPerezMorales();
+					break;
+
+				case "2":
+					jesusGinesRuiz();
+				
+					break;
 				
 				}
 				
-				break;
-			
-		}
+				
+		
+		
 
 	}
 	
@@ -52,6 +66,9 @@ public class Principal {
 		System.out.println("Esta es una funcion de Adrián Pérez Morales");
 	}
 	
+	public static void jesusGinesRuiz(){
+		System.out.println("Esta es la funcion de Jesus Ginés Ruiz");
+	}
 
 }
 
