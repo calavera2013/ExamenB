@@ -13,9 +13,9 @@ public class Principal {
 		System.out.println("2. Seleccionar alumno");
 		System.out.println("S. Salir");
 		
-		String opcion = leer.nextLine();
+		seleccionar = leer.nextLine();
 				
-		switch(opcion){
+		switch(seleccionar){
 		
 			case "1":
 					miguelAngelCamarena();
