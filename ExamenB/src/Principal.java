@@ -62,6 +62,7 @@ public class Principal {
 	public static void miguelAngelCamarena(){
 		System.out.println("Esta es la funcion de Miguel Angel Camarena");
 	}
+	
 	public static void adrianPerezMorales(){
 		System.out.println("Esta es una funcion de Adrián Pérez Morales");
 	}
