@@ -14,7 +14,9 @@ public class Principal {
 		System.out.println("S. Salir");
 		
 		String opcion = leer.nextLine();
-				
+		boolean x = true;
+		
+		do{
 		switch(opcion){
 		
 			case "1":
@@ -33,20 +35,25 @@ public class Principal {
 				//////// En este swith cada alumno debe anadir un case diferente. ////////
 				//////// Dentro de el, se encontrara una llamada a una funcion con su nombre y apellidos (igual que hice yo en el caso de arriba) ////////
 				switch(){  
-
+					
+				case "1":
+					AnthonyRodriguez();
+					break;
 				
 				}
-				
+				case "S":
+  				x = false;
 				break;
 			
 		}
 
-	}
+	}while(x);
 	
 	public static void miguelAngelCamarena(){
 		System.out.println("Esta es la funcion de Miguel Angel Camarena");
 	}
-	
-
+	public static void AnthonyRodriguez(){
+		System.out.println("Esta es la funcion de Anthony Rodriguez");
+	}
 }
 
