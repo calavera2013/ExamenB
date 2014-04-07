@@ -7,7 +7,7 @@ public class Principal {
 
 		
 		Scanner leer = new Scanner(System.in);
-		int seleccionar;
+		String seleccionar;
 		
 		System.out.println("1. Seleccionar profesor");
 		System.out.println("2. Seleccionar alumno");
@@ -24,6 +24,7 @@ public class Principal {
 			case "2":
 				
 				System.out.println("ALUMNOS"); //////// Debajo de esta linea ir escribiendo vuestros nombres para formar el menu correspondiente /////
+				System.out.println("1.Adrián Pérez Morales");
 				// 1. Pikachu Rodriguez
 				// 2. Son Goku Garcia 
 				// ...
@@ -32,8 +33,9 @@ public class Principal {
 				
 				//////// En este swith cada alumno debe anadir un case diferente. ////////
 				//////// Dentro de el, se encontrara una llamada a una funcion con su nombre y apellidos (igual que hice yo en el caso de arriba) ////////
-				switch(){  
-
+				switch(seleccionar){  
+				case "1":
+					adrianPerezMorales();
 				
 				}
 				
@@ -45,6 +47,9 @@ public class Principal {
 	
 	public static void miguelAngelCamarena(){
 		System.out.println("Esta es la funcion de Miguel Angel Camarena");
+	}
+	public static void adrianPerezMorales(){
+		System.out.println("Esta es una funcion de Adrián Pérez Morales");
 	}
 	
 
