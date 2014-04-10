@@ -51,7 +51,7 @@ public class Principal {
 	}
 	
 	public static void jesusGinesRuiz(){
-		System.out.println("Esta es la funcion de Jesus Ginés Ruiz");
+		System.out.println("Esta es la funcion de Jesus Gines Ruiz");
 	}
 	public static void JavierCuesta(){
 		System.out.println("Esta es la funcion de Fco. Javier Cuesta");
